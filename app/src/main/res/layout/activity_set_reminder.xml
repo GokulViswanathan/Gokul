@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn_pick_contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pick Contact" />
+
+    <EditText
+        android:id="@+id/et_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone Number"
+        android:enabled="false" />
+
+    <Button
+        android:id="@+id/btn_pick_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pick Date &amp; Time" />
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save" />
+
+</LinearLayout>
